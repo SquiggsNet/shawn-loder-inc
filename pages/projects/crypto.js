@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Crypto() {
   return (
     <div className="container">
       <Head>
@@ -11,11 +11,14 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Shawn Loder Inc
+          Crypto
         </h1>
         <Link href="/projects">
           <a>Projects</a>
         </Link>
+        <p className="description">
+          coming soon...
+        </p>
       </main>
 
       <style jsx>{`

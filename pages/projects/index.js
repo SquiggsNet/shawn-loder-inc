@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Projects() {
   return (
     <div className="container">
       <Head>
@@ -11,13 +11,28 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Shawn Loder Inc
+          Projects
         </h1>
-        <Link href="/projects">
-          <a>Projects</a>
+        <Link href="/">
+          <a>Home</a>
         </Link>
-      </main>
 
+        <div className="grid">
+          <Link href="/projects/space-raffle">
+            <a className="card">
+              <h3>Space Raffle &rarr;</h3>
+              <p>The only crypto to send you to space.</p>
+            </a>
+          </Link>
+
+          <Link href="/projects/crypto">
+            <a className="card">
+              <h3>Crypto &rarr;</h3>
+              <p>ShawnLoderCoin! multi-services cryptocurrency</p>
+            </a>
+          </Link>
+        </div>
+      </main>
       <style jsx>{`
         .container {
           min-height: 100vh;
