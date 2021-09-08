@@ -18,6 +18,8 @@ export default function Crypto() {
         </Link>
         <p className="description">
           coming soon...
+    
+    Daily Playing on crypto market. 
         </p>
       </main>
 
