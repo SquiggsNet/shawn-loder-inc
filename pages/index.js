@@ -13,9 +13,35 @@ export default function Home() {
         <h1 className="title">
           Shawn Loder Inc
         </h1>
+    
+    
+    
+        <Link href="/what">
+          <a>What</a>
+        </Link>
+    
+    
         <Link href="/projects">
           <a>Projects</a>
         </Link>
+    
+    
+        <Link href="/help">
+          <a> How to Help</a>
+        </Link>
+    
+    
+       <Link href="/story">
+          <a>My Story</a>
+        </Link>
+    
+    
+       <Link href="/donate">
+          <a>Donations</a>
+        </Link>
+    
+    
+    
       </main>
 
       <style jsx>{`
